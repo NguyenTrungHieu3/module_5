@@ -1,0 +1,72 @@
+Bai 3 React Component Module: BOOTCAMP WEB-FRONTEND
+
+---PAGE---
+Thảo luận - React Component - Class component &amp; Function component - Khái niệm và ý nghĩa của Props, Pure Function
+
+---PAGE---
+Mục tiêu • Trình bày được khái niệm React Component. • Triển khai được Class Component, Function Component. • Trình bày được khái niệm Props. • Trình bày được ý nghĩa của Pure function với React Component.
+
+---PAGE---
+React Component React Component? Hãy xem ví dụ sau…
+
+---PAGE---
+React Component Hình 1. Một trang web hoàn chỉnh
+
+---PAGE---
+React Component Hình 1.1 Một trang web hoàn chỉnh cấu thành từ các components
+
+---PAGE---
+React Component VẬY, THẾ NÀO LÀ REACT COMPONENT?
+
+---PAGE---
+React Component Khi ứng dụng phình to có hàng ngàn dòng code, việc phân tách thành component là hữu ích. Component là một block code độc lập, có thể tái sử dụng. Mỗi component có code JS và CSS riêng, chúng có thể tái sử dụng, dễ đọc, dễ viết, dễ test. React có 2 loại component: Functional Component (Stateless) và Class Component(Stateful) .
+
+---PAGE---
+React Component FUNCTIONAL COMPONENT
+
+---PAGE---
+Functional Component Đẹp + ngắn gọn Tái sử dụng nhiều lần Có thể xây thêm func khác lồng nhau style.visibility style.visibility style.visibility ppt_w ppt_h
+
+---PAGE---
+React Component LIÊN QUAN GÌ ĐẾN FUNCTIONAL COMPONENT?
+
+---PAGE---
+Functional Component Một function Javascript / ES6 function Phải trả về 1 React element Nhận props làm tham số nếu cần
+
+---PAGE---
+Function Component Ví dụ sau demo cho function component import React from 'react'; const App =()=&gt;{ const greeting = 'Hello Function Component!'; return &lt;Headline voLue={greeting} /&gt;; } const Headline = ({ value }) =&gt; { return &lt;hl&gt;{value}&lt;/hl&gt;; }; export default App; Component App gọi đến component Headline và truyền vào một props là value với giá trị là “Hello Function Component!”. Giá trị này được gán vào biến greeting. Component Headline trả về (return) giá trị của props truyền vào .
+
+---PAGE---
+Function Component Xây dựng demo functional component style.visibility ppt_w ppt_h style.visibility ppt_w ppt_h
+
+---PAGE---
+Function Component Xây dựng demo functional component style.visibility ppt_w ppt_h style.visibility ppt_w ppt_h
+
+---PAGE---
+Function Component Thực hành: Xây dựng function Component
+
+---PAGE---
+React Component CLASS COMPONENT
+
+---PAGE---
+Class Component Là một class ES6, nó sẽ là một component khi nó &quot;kế thừa&quot; React component. Có thể nhận props (trong hàm khởi tạo) nếu cần. Có thể maintain data của nó với state Phải có 1 method render() trả về 1 React element (JSX), hoặc null
+
+---PAGE---
+Class Component Ví dụ sau demo cho class component class AppComponent extends React.Component { greeting = “Hello Class Component!”; render(){ return &lt;Headline value={greeting} /&gt; } } class Headline extends React.Component { render() { return &lt; hi&gt;{this. props. value}&lt;/hl&gt;; } } Component App gọi đến component Headline và truyền vào một props là value với giá trị là “Hello Class Component!”. Giá trị này được gán vào biến greeting. Component Headline trả về (return) giá trị của props truyền vào.
+
+---PAGE---
+Class Component Thực hành: Xây dựng Class component
+
+---PAGE---
+Props • Chúng ta sử dụng props để truyền dữ liệu đến các component • Mọi component được gọi là hàm javascript thuần khiết (Pure function). • Props tương ứng với tham số của pure function javascript • Không thể thay đổi được dữ liệu của Props.
+
+---PAGE---
+Props Thực hành: Sử dụng Props trong component
+
+---PAGE---
+Pure function Hàm luôn trả về cùng một kết quả nếu được truyền vào các tham số không đổi. Nó không hề phụ thuộc vào bất kỳ trạng thái hoặc dữ liệu nào. Hàm này không tạo ra bất kỳ ảnh hưởng nào đến các đối tượng khác , chẳng hạn như các request, input, output hoặc data mutation.
+
+---PAGE---
+Tóm tắt bài học Components giúp phân chia các UI (giao diện người dùng) thành các phân nhỏ để dễ dàng quản lý và tái sử dụng. Function component là một hàm Javascript (hoặc ES6) trả về 1 phần tử/1 element React Các Class components là những class ES6. Chúng phức tạp hơn functional components ở chỗ nó còn có: phương thức khởi tạo, life-cycle, hàm render() và quản lý state (data) Props là 1 đối tượng, nó lưu trữ các giá trị của các attribute (thuộc tính) của một thẻ (Tag). Pure function là Hàm luôn trả về cùng một kết quả nếu được truyền vào các tham số không đổi, Hàm này không tạo ra bất kỳ ảnh hưởng nào đến các đối tượng khác.
+
+---PAGE---

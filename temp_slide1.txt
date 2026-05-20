@@ -1,0 +1,108 @@
+UX/UI
+Raising the bar
+
+---PAGE---
+Mục tiêu
+• Nắm được khái niệm vềUX/UI
+• Nắm được mẫu F - Pattern
+• Sửdụng được F – Pattern
+• Nắm được các nguyên tắc thiết kếType
+
+---PAGE---
+UX-UI là gì?
+
+---PAGE---
+UI
+• UI là viết tắt của từ User Interface có nghĩa là giao diện người dùng.
+• UI bao gồm tất cả những gì người dùng có thể nhìn thấy như: màu sắc web, 
+bố cục sắp xếp như thế nào, web/app sử dụng fonts chữ gì, hình ảnh trên 
+web có hấp dẫn hay không,...
+
+---PAGE---
+UX
+• UX là viết tắt của từ User Experience có nghĩa là trải nghiệm người 
+dùng. 
+• UX là những đánh giá của người dùng khi sử dụng sản phẩm
+• UX Designer sẽnghiên cứu và đánh giá vềthói quen và cách mà khách
+hàng sửdụng rồi đánh giá vềsản phẩm website/App nào đó. 
+• Đánh giá vềtính dễsửdụng, sựtiện ích, sựhiệu quảkhi hệthống hoạt
+động.
+
+---PAGE---
+F - Pattern
+
+---PAGE---
+F – Pattern là gì?
+• F-Pattern là một mô hình mô tả 
+cách thức thông thường mà mắt 
+người thường đảo qua các khối nội 
+dung trên một trang web. 
+• Mắt người thường có thói quen 
+bắt đầu ở góc bên trái, sau đó lướt 
+ngang, sau đó lướt dọc theo lề trái 
+và lần lượt xuống bên dưới.
+
+---PAGE---
+Tại sao nên dùng?
+• F-Pattern giúp chúng ta có cơ sở để trình bày nội dung của một tài liệu 
+theo cách thức mà phù hợp với thói quen nhìn của ngươi dùng, chẳng 
+hạn áp dụng cho một trang blog, tin tức, website bán hàng... 
+• Với cách bố trí phù hợp thì dễ giúp người dùng tiếp nhận được thông tin 
+hơn, và làm nổi bật được những nội dung quan trọng nhất.
+
+---PAGE---
+Sửdụng
+Đểsửdụng F – Pattern sẽphải làm như sau:
+• Đánh độ ưu tiên cho các phần của nội dung
+• Đưa phần quan trọng nhất lên trên cùng
+• Thiết kế để lướt qua nhanh, không phải để đọc kỹ
+• Sửdụng sidebar
+• Hạn chếsửdụng các bốcục gây nhàm chán
+
+---PAGE---
+Các nguyên tắc thiết kếTypo
+
+---PAGE---
+Các nguyên tắc thiết kếTypo
+• Không nên sửdụng nhiều kiểu dáng chữ
+
+---PAGE---
+Các nguyên tắc thiết kếTypo
+• Không nên đểcác chữquá sát nhau hoặc quá thưa
+
+---PAGE---
+Các nguyên tắc thiết kếTypo
+• Không nên căn giữa mọi thứ
+
+---PAGE---
+Các nguyên tắc thiết kếTypo
+• Kiểu dáng trang trí không phải lúc nào cũng đẹp
+
+---PAGE---
+Các nguyên tắc thiết kếTypo
+• Không nên đểcỡchữquá lớn hoặc quá nhỏ
+
+---PAGE---
+Các nguyên tắc thiết kếTypo
+• Khảnăng đọc
+
+---PAGE---
+Các nguyên tắc thiết kếTypo
+• Màu sắc
+
+---PAGE---
+Các nguyên tắc thiết kếTypo
+• Nhóm
+
+---PAGE---
+Các nguyên tắc thiết kếTypo
+• Khoảng cách dòng(Leading)
+
+---PAGE---
+Các nguyên tắc thiết kếTypo
+• Khoảng cách chữ(Kerning)
+
+---PAGE---
+Raising the bar
+
+---PAGE---
