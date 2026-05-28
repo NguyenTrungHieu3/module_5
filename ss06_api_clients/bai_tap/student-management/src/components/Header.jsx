@@ -1,0 +1,50 @@
+import {Link} from 'react-router-dom';
+import {useState} from "react";
+
+function Header() {
+    const [isLogin, setIsLogin] = useState(false);
+    return (
+        <header>
+            <nav className="navbar navbar-expand-lg bg-light">
+                <div className="container-fluid">
+                    <Link className="navbar-brand" to="#">Quản lý sinh viên</Link>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="d-flex justify-content-between align-items-center">
+                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div >
+                                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li className="nav-item">
+                                        <Link className="nav-link active" aria-current="page" to="/">Trang chủ</Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link className="nav-link" to="/students">Sinh viên</Link>
+                                    </li>
+                                    <li className="nav-item dropdown">
+                                        <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown"
+                                              aria-expanded="false">
+                                            Thêm
+                                        </Link>
+                                        <ul className="dropdown-menu">
+                                            <li><Link className="dropdown-item" to="#">Quản lý lớp</Link></li>
+                                            <li><Link className="dropdown-item" to="#">Quản lý ngành học</Link></li>
+                                            <li>
+                                                <hr className="dropdown-divider"/>
+                                            </li>
+                                            <li><Link className="dropdown-item" to="#">Khác</Link></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    )
+}
+
+export default Header;
